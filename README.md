@@ -155,7 +155,7 @@ Pure API approach was investigated but not recommended because:
 
 See [DIRECT_API_NOTES.md](DIRECT_API_NOTES.md) for detailed analysis.
 
-## 📊 Database Schema
+## Database Schema
 
 ```sql
 CREATE TABLE transactions (
