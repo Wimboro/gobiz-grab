@@ -1,0 +1,52 @@
+{
+  "name": "gobiz-transaction-scraper",
+  "version": "1.0.0",
+  "description": "A robust Node.js application to scrape and monitor transaction data from GoBiz Merchant Portal with real-time monitoring and Cloudflare D1 database integration",
+  "main": "scrapeTransactionsMonitor.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wimboro/gobiz-transaction-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wimboro/gobiz-transaction-scraper/issues"
+  },
+  "homepage": "https://github.com/wimboro/gobiz-transaction-scraper#readme",
+  "scripts": {
+    "start": "node scrapeTransactionsMonitor.js",
+    "api": "node scrapeTransactionsAPI.js",
+    "hybrid": "node scrapeTransactionsHybrid.js",
+    "direct-api": "node scrapeTransactionsDirectAPI.js",
+    "capture-api": "node captureAPI.js",
+    "monitor": "node scrapeTransactionsMonitor.js",
+    "shadowdom": "node scrapeTransactionsShadowDOM.js",
+    "test-d1": "node testD1.js",
+    "inspect-api": "node inspectJournalsAPI.js",
+    "migrate-d1": "node migrateD1.js"
+  },
+  "keywords": [
+    "gobiz",
+    "gofood",
+    "gojek",
+    "scraper",
+    "puppeteer",
+    "transaction",
+    "monitor",
+    "cloudflare-d1",
+    "web-scraping",
+    "automation",
+    "merchant",
+    "indonesia"
+  ],
+  "author": "GoBiz Transaction Scraper Contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "puppeteer": "^24.15.1",
+    "node-fetch": "^2.7.0"
+  }
+}

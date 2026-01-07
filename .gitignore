@@ -1,0 +1,52 @@
+# Environment variables
+.env
+
+# Dependencies
+node_modules/
+
+# Output files
+transactions_latest.json
+
+# Log files
+*.log
+
+# Session files (contains authentication data)
+session.json
+user_data/
+
+# Debug files
+debug_*.json
+debug_*.html
+debug_*.png
+table_debug*
+amount_cell*
+error_screenshot_*
+aggressive_*
+api_responses_*.json
+journals_api_inspection_*.json
+
+# Wrangler local state
+.wrangler/
+
+# IDE
+.vscode/
+.idea/
+.kiro/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.directory
+
+# Screenshots
+*.png
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cloudflare D1
+wrangler.toml
