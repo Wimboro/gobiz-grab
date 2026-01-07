@@ -90,5 +90,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute to this project.
 ## Support
 
 For issues and questions, please visit:
-- [GitHub Issues](https://github.com/wimboro/gobiz-transaction-scraper/issues)
+- [GitHub Issues](https://github.com/wimboro/gobiz-grab/issues)
 - [Documentation](README.md)

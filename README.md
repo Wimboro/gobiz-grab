@@ -28,8 +28,8 @@ A robust Node.js application to scrape and monitor transaction data from GoBiz (
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/wimboro/gobiz-transaction-scraper.git
-   cd gobiz-transaction-scraper
+   git clone https://github.com/wimboro/gobiz-grab.git
+   cd gobiz-grab
    ```
 
 2. **Install dependencies**
@@ -286,8 +286,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you encounter any issues or have questions:
 
 1. Check the [documentation](#-documentation)
-2. Search [existing issues](https://github.com/wimboro/gobiz-transaction-scraper/issues)
-3. Create a [new issue](https://github.com/wimboro/gobiz-transaction-scraper/issues/new)
+2. Search [existing issues](https://github.com/wimboro/gobiz-grab/issues)
+3. Create a [new issue](https://github.com/wimboro/gobiz-grab/issues/new)
 
 ## 🗺️ Roadmap
 

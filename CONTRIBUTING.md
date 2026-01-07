@@ -97,8 +97,8 @@ Enhancement suggestions are tracked as GitHub issues. When creating an enhanceme
 
 1. **Clone your fork**
    ```bash
-   git clone https://github.com/your-username/gobiz-transaction-scraper.git
-   cd gobiz-transaction-scraper
+   git clone https://github.com/your-username/gobiz-grab.git
+   cd gobiz-grab
    ```
 
 2. **Install dependencies**
@@ -165,7 +165,7 @@ async function extractTransactions(page, apiResponses) {
 ## Project Structure
 
 ```
-gobiz-transaction-scraper/
+gobiz-grab/
 ├── scrapeTransactionsMonitor.js    # Main monitor script
 ├── scrapeTransactionsShadowDOM.js  # Shadow DOM workaround
 ├── scrapeTransactionsAPI.js        # API-based scraper

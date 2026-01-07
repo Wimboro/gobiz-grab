@@ -1,16 +1,16 @@
 {
-  "name": "gobiz-transaction-scraper",
+  "name": "gobiz-grab",
   "version": "1.0.0",
   "description": "A robust Node.js application to scrape and monitor transaction data from GoBiz Merchant Portal with real-time monitoring and Cloudflare D1 database integration",
   "main": "scrapeTransactionsMonitor.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wimboro/gobiz-transaction-scraper.git"
+    "url": "https://github.com/wimboro/gobiz-grab.git"
   },
   "bugs": {
-    "url": "https://github.com/wimboro/gobiz-transaction-scraper/issues"
+    "url": "https://github.com/wimboro/gobiz-grab/issues"
   },
-  "homepage": "https://github.com/wimboro/gobiz-transaction-scraper#readme",
+  "homepage": "https://github.com/wimboro/gobiz-grab#readme",
   "scripts": {
     "start": "node scrapeTransactionsMonitor.js",
     "api": "node scrapeTransactionsAPI.js",
